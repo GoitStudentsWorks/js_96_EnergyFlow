@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorites</title>
+    <link rel="icon" type="image/svg+xml" href="/js_96_EnergyFlow/assets/icon-d787de76.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <script type="module" crossorigin src="/js_96_EnergyFlow/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_96_EnergyFlow/assets/vendor-8cce9181.js">
+    <link rel="modulepreload" crossorigin href="/js_96_EnergyFlow/assets/modals-functions-3d32d365.js">
+    <link rel="stylesheet" href="/js_96_EnergyFlow/assets/vendor-e5212ee8.css">
+    <link rel="stylesheet" href="/js_96_EnergyFlow/assets/modals-functions-f1d61978.css">
+  </head>
+
+  <body>
+    <header class="header-page on-favorites">
+  <div class="header-main container">
+    <a class="header-logo" href="./index.html">energy.flow</a>
+    <nav class="header-nav">
+      <ul class="header-nav-list">
+        <li class="home d">
+          <a class="link-home" href="./index.html">Home</a>
+        </li>
+        <li class="favorites d">
+          <a class="link-favorites" href="./favorites.html">Favorites</a>
+        </li>
+        <div class="ghost d"></div>
+      </ul>
+    </nav>
+    <ul class="header-social-list">
+      <li class="header-social-list-item">
+        <a
+          href="https://www.facebook.com/"
+          class="header-social-list-link"
+          target="_blank"
+        >
+          <svg class="header-social-list-icon" width="28" height="28">
+            <use href="/js_96_EnergyFlow/assets/sprite-e0f30560.svg#facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-social-list-item">
+        <a
+          href="https://www.instagram.com/"
+          class="header-social-list-link"
+          target="_blank"
+        >
+          <svg class="header-social-list-icon" width="28" height="28">
+            <use href="/js_96_EnergyFlow/assets/sprite-e0f30560.svg#instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-social-list-item">
+        <a
+          href="https://www.youtube.com/c/GoIT"
+          class="header-social-list-link"
+          target="_blank"
+        >
+          <svg class="header-social-list-icon" width="28" height="28">
+            <use href="/js_96_EnergyFlow/assets/sprite-e0f30560.svg#youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+    <div class="header-burger">
+      <span class="burger-line"></span>
+    </div>
+  </div>
+</header>
+
+    <div class="mobile-menu-wrapper visually-hidden">
+  <div class="mobile-menu">
+    <div class="mobile-menu-header">
+      <a href="./" class="mobile-menu-logo">energy.flow</a>
+      <button class="mobile-menu-close-btn" type="button">
+        <svg class="mobile-menu-close-btn-icon" width="20" height="20">
+          <use href="/js_96_EnergyFlow/assets/sprite-e0f30560.svg#cross"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mobile-menu-content">
+      <a class="mobile-menu-btn-content-home" href="./index.html">Home</a>
+
+      <a class="mobile-menu-btn-content-favorites" href="./favorites.html"
+        >Favorites</a
+      >
+    </div>
+    <ul class="mobile-menu-social-icons">
+      <li class="">
+        <a href="https://www.facebook.com/goITclub/" class="mobile-menu-social-icon">
+          <svg class="mobile-menu-social-list-icon" width="40" height="40">
+            <use href="/js_96_EnergyFlow/assets/sprite-e0f30560.svg#facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="">
+        <a href="https://www.instagram.com/goitclub/" class="mobile-menu-social-icon">
+          <svg class="mobile-menu-social-list-icon" width="40" height="40">
+            <use href="/js_96_EnergyFlow/assets/sprite-e0f30560.svg#instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="">
+        <a href="https://www.youtube.com/c/GoIT" class="mobile-menu-social-icon">
+          <svg class="mobile-menu-social-list-icon" width="40" height="40">
+            <use href="/js_96_EnergyFlow/assets/sprite-e0f30560.svg#youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+    <section class="favorites-quote-section">
+  <div class="container favorites-quote-wrapper">
+    <div class="quote-wrapper">
+      <svg class="quote-dude-icon" width="34" height="32">
+        <use href="/js_96_EnergyFlow/assets/sprite-e0f30560.svg#dude"></use>
+      </svg>
+      <svg class="quote-inverted-commas-icon" width="28" height="28">
+        <use href="/js_96_EnergyFlow/assets/sprite-e0f30560.svg#icon-inverted-commas"></use>
+      </svg>
+      <div class="qote-text-wrapper">
+        <h3 class="quote-title">Quote of the day</h3>
+        <p class="quoote-text">
+          A lot of times I find that people who are blessed with the most talent don't ever develop
+          that attitude, and the ones who aren't blessed in that way are the most competitive and
+          have the biggest heart.
+        </p>
+        <p class="quote-autor">Tom Brady</p>
+      </div>
+    </div>
+    <div class="photo-daily-norm-wrapper">
+      <div class="quote-photo-wrapper"></div>
+      <div class="quote-daily-norm-wrapper">
+        <div class="daily-norm-wrapper">
+          <svg class="daily-norm-gym-icon" width="20" height="20">
+            <use href="/js_96_EnergyFlow/assets/sprite-e0f30560.svg#gym"></use>
+          </svg>
+          <p class="sport-time">110 min</p>
+          <p class="daily-norm">Daily norm of sports</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+    <section class="section">
+  <div class="favorites-card">
+    <h2 class="favorites-title">Favorites</h2>
+    <div class="favorites-contanier-block">
+      <ul class="favorites-list"></ul>
+    </div>
+    <div class="pagination-mobile-list">
+      <ul class="favorites-pagination-block"></ul>
+    </div>
+  </div>
+</section>
+
+    <div class="backdrop modal">
+  <div class="modal-wrapper">
+    <div class="modal-inner">
+      <button class="modal-button-close" type="button">
+        <svg class="modal-button-close-icon" width="24" height="24" aria-label="icon-close">
+          <use class="modal-button-close-use" href="/js_96_EnergyFlow/assets/sprite-e0f30560.svg#cross"></use>
+        </svg>
+      </button>
+      <div class="exs-container"></div>
+    </div>
+  </div>
+</div>
+
+    <div class="backdrop js-backdrop-modal">
+  <div class="rating-modal-wrapper">
+    <button class="rating-close js-rating-close" type="button">
+      <svg class="rating-close-svg" width="28" height="28">
+        <use class="rating-close-use" href="/js_96_EnergyFlow/assets/sprite-e0f30560.svg#cross"></use>
+      </svg>
+    </button>
+
+    <form class="rating-form js-rating-form">
+      <p class="rating-title">Rating</p>
+      <div class="rating-stars-wrapper">
+        <p class="rating-data js-rating-data">0.0</p>
+        <div class="simple-rating">
+          <div class="rating-stars-list js-stars-list">
+            <input
+              class="rating-stars-item"
+              id="rating_5"
+              type="radio"
+              value="5"
+              name="rating"
+            />
+            <label class="rating-label" for="rating_5" data-rate="5"></label>
+
+            <input
+              class="rating-stars-item"
+              id="rating_4"
+              type="radio"
+              value="4"
+              name="rating"
+            />
+            <label class="rating-label" for="rating_4" data-rate="4"></label>
+            <input
+              class="rating-stars-item"
+              id="rating_3"
+              type="radio"
+              value="3"
+              name="rating"
+            />
+            <label class="rating-label" for="rating_3" data-rate="3"></label>
+            <input
+              class="rating-stars-item"
+              id="rating_2"
+              type="radio"
+              value="2"
+              name="rating"
+            />
+            <label class="rating-label" for="rating_2" data-rate="2"></label>
+            <input
+              class="rating-stars-item"
+              id="rating_1"
+              type="radio"
+              value="1"
+              name="rating"
+            />
+            <label class="rating-label" for="rating_1" data-rate="1"></label>
+          </div>
+        </div>
+      </div>
+      <label>
+        <input
+          class="rating-input"
+          type="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
+      </label>
+      <label>
+        <textarea
+          class="rating-comment"
+          name="comment"
+          maxlength="10000"
+          placeholder="Your comment"
+          required
+        ></textarea>
+      </label>
+      <button class="rating-submit js-raiting-submit">Send</button>
+    </form>
+  </div>
+</div>
+
+
+    
+    
+  </body>
+</html>
